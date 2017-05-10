@@ -1,0 +1,46 @@
+﻿body {
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 100%;
+}
+
+.navbar-inverse {
+    background: #331940;
+}
+
+    .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+        background-color: #0CCA98;
+        color: #ffffff;
+    }
+
+    .navbar-inverse .navbar-toggle .icon-bar {
+        background-color: #6decb9;
+    }
+
+    .navbar-inverse .navbar-brand {
+        color: #6ddfac;
+    }
+
+    .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+        color: #67d8a8;
+        background-color: transparent;
+    }
+
+    .navbar-inverse .navbar-nav > li > a {
+        color: #6ddfac;
+    }
+
+    .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+        border-color: #6ddfac;
+    }
